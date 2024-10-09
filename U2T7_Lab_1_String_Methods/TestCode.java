@@ -111,9 +111,15 @@ public class TestCode {
         // String din = yum.substring(3, 12).substring(5, 7);
         // System.out.println(din);
         
-        String today = "THURSDAY!";
-        String x = today.substring(3, 7).substring(0, 3).substring(1, 3);
-        System.out.println(x);
+        // String blah2 = "What's for dinner?";
+        // String ugh2 = blah2.substring(11);
+        // String ugh3 = blah2.substring(11,18);
+        // System.out.println(ugh2);
+        // System.out.println(ugh3);
+
+        // String today = "THURSDAY!";
+        // String x = today.substring(3, 7).substring(0, 3).substring(1, 3);
+        // System.out.println(x);
 
 
 
