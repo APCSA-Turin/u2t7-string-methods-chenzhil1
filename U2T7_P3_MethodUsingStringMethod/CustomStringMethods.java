@@ -32,7 +32,7 @@ public class CustomStringMethods {
                Example:  If str is apples and idx is 0, this method returns the string aapplesa
      */
     public String funnyString(String str, int idx) {
-        str = str.substring(idx, idx + 1) + str + str.substring(idx, idx  +1);
+        str = str.substring(idx, idx + 1) + str + str.substring(idx, idx + 1);
         return str;
       
     }
@@ -49,7 +49,7 @@ public class CustomStringMethods {
             myString = myString.substring(myString.length() / 2) + myString.substring(0, myString.length() / 2);
         }
         else {
-            myString = myString.substring((myString.length() - 1) /2 ) + myString.substring(0, (myString.length() - 1) /2);
+            myString = myString.substring((myString.length() - 1) / 2) + myString.substring(0, (myString.length() - 1) / 2);
         }
         return myString;
     }
